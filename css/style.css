@@ -66,6 +66,14 @@ h2 {
     text-align: left;
 }
 
+/* キャリア */
+.career{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
 /* フッター */
 footer {
     background-color: #2c3e50;
