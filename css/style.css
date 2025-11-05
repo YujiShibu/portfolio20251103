@@ -70,8 +70,20 @@ h2 {
 .career{
     background-color: #fff;
     border-radius: 8px;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 30px;
+}
+
+/* スキル・資格 */
+.skills{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;    
+}
+
+.skill-category {
+    margin-bottom: 15px;
 }
 
 /* フッター */
