@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
-header{
+header {
     background-color: #2c3e50;
     text-align: center;
     position: fixed;
@@ -20,15 +20,54 @@ header{
     z-index: 1000;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#logo a{
+#logo a {
     color: #fff;
 }
 
-footer{
+
+main {
+    margin-top: 100px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    color: #2a7ae2;
+    border-bottom: 2px solid #ddd;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+
+/* 自己紹介 */
+.profile {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    text-align: left;
+}
+
+/* フッター */
+footer {
     background-color: #2c3e50;
     color: #fff;
     text-align: center;
