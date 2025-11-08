@@ -120,6 +120,14 @@ h2 {
     align-items: center;
 }
 
+/* お問い合わせ */
+.contact {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
 /* フッター */
 footer {
     background-color: #2c3e50;
