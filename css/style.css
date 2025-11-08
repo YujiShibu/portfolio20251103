@@ -67,7 +67,7 @@ h2 {
 }
 
 /* キャリア */
-.career{
+.career {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -75,11 +75,11 @@ h2 {
 }
 
 /* スキル・資格 */
-.skills{
+.skills {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
 .skill-category {
@@ -135,4 +135,51 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 14px;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .profile {
+        padding: 30px;
+    }
+
+    #my_picture {
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .career ul,
+    .skills ul {
+        padding-left: 10px;
+    }
+
+    .works {
+        padding: 15px;
+    }
+
+    .work-item {
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 40px;
+    }
 }
